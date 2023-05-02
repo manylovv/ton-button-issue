@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <h1>HOME page</h1>
-      <Link to="/about">Link to about page</Link>
+      <Link to="/about">Go to about page</Link>
       <TonConnectButton style={{ marginTop: 20 }} />
     </div>
   );
@@ -19,7 +19,7 @@ const AboutUs = () => {
   return (
     <div>
       <h1>ABOUT US page</h1>
-      <Link to="/">Link to home page</Link>
+      <Link to="/">Go to home page</Link>
     </div>
   );
 };
